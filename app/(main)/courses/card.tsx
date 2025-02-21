@@ -6,7 +6,7 @@ type Props = {
   id: number;
   title: string;
   imageSrc: string;
-  onClick: () => void;
+  onClick: (id: number) => void;
   disabled?: boolean;
   active?: boolean;
 };
